@@ -4,6 +4,11 @@ body {
 }
 
 .carousel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: red 1px solid;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -11,7 +16,7 @@ body {
 
 .carousel-slide {
   display: none;
-  width: 100%;
+  width: 80%;
   transition: transform 1s ease-in-out;
 }
 
