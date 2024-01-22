@@ -7,8 +7,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  border: red 1px solid;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -17,7 +15,7 @@ body {
 .carousel-slide {
   display: none;
   width: 80%;
-  transition: transform 1s ease-in-out;
+  transition: transform 2s ease-in-out;
 }
 
 .carousel-slide.active {
